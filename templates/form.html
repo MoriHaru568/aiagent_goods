@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>AI商品ブランディング</title>
+</head>
+<body>
+  <h2>商品情報を入力してください</h2>
+  <form method="POST" action="/generate">
+    <label>商品ジャンル:</label><br>
+    <input type="text" name="genre" placeholder="スキンケアクリーム"><br><br>
+
+    <label>商品の特徴:</label><br>
+    <textarea name="features" rows="4" cols="40" placeholder="無添加、オーガニック素材、敏感肌対応"></textarea><br><br>
+
+    <label>ターゲット層:</label><br>
+    <input type="text" name="target" placeholder="30〜40代女性"><br><br>
+
+    <input type="submit" value="AIに生成させる">
+  </form>
+</body>
+</html>
